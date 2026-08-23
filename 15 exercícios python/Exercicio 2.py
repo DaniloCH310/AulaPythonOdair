@@ -1,0 +1,5 @@
+nota1 = input("Primeira nota: ")
+nota2 = input("Segunda nota: ")
+soma = int(nota1) + int(nota2)
+media = (soma / 2)
+print(f"A média é: {media}")
