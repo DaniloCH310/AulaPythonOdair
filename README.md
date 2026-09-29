@@ -1,0 +1,130 @@
+# Aula Python — Programming & Algorithms
+
+Repositório de estudos de **Danilo Chaves de Sá**, desenvolvido durante a disciplina **Programming & Algorithms**, turma **202602 — CC 2A Noite**, da Faculdade Impacta.
+
+Reúne exercícios de lógica de programação em Python, representações em fluxogramas, tabelas de apoio e versões executáveis para Windows. O objetivo é registrar a evolução nas aulas e praticar a transformação de problemas em algoritmos.
+
+## Contexto da disciplina
+
+A organização toma como referência a [turma no Google Classroom](https://classroom.google.com/c/ODcxMjM4ODEyNzUw), cujo acesso exige uma conta autorizada. Entre os tópicos consultados estão conceitos iniciais, arquivos de aula, vídeos, a lista de exercícios de **Entregáveis 01** e o **Preparatório para AP-02**, com materiais sobre funções e módulos em Python.
+
+O conteúdo deste repositório representa as atividades aqui publicadas; não corresponde necessariamente a todo o material da disciplina. As orientações e os enunciados oficiais devem ser consultados no Classroom.
+
+## Conteúdos praticados
+
+- Entrada e saída de dados com `input()` e `print()`.
+- Variáveis, conversões com `int()` e `float()` e operadores aritméticos.
+- Cálculos de médias, medidas, temperaturas, descontos e comissões.
+- Comparações e estruturas condicionais com `if`, `elif` e `else`.
+- Funções auxiliares para formatação de valores monetários.
+- Representação das soluções por meio de fluxogramas e tabelas.
+
+## Organização
+
+```text
+AulaPythonOdair/
+├── AtividadePrint.py         # Prática de saída de mensagens
+├── AulaEquação.py            # Resolução de uma equação simples
+├── 15 exercícios python/
+│   ├── *.py                 # Códigos-fonte dos exercícios 1 a 15
+│   ├── Fluxograma *.png     # 15 fluxogramas
+│   └── Tabela *.png         # 15 tabelas de apoio
+├── Executáveis_python/
+│   └── *.exe               # 20 executáveis, numerados de 16 a 35
+└── README.md
+```
+
+### Exercícios com código-fonte
+
+Os arquivos estão em [15 exercícios python](15%20exerc%C3%ADcios%20python/).
+
+| Exercício | Tema |
+| --- | --- |
+| 1 | Soma de dois números inteiros |
+| 2 | Média de duas notas |
+| 3 | Antecessor e sucessor |
+| 4 | Dobro, triplo e metade |
+| 5 | Conversão de metros para centímetros e milímetros |
+| 6 | Área e perímetro de um retângulo |
+| 7 | Conversão de Celsius para Fahrenheit |
+| 8 | Desconto de 10% sobre um preço |
+| 9 | Reajuste salarial de 15% |
+| 10 | Comissão de 4% e salário total |
+| 11 | Troca de valores entre duas variáveis |
+| 12 | Total de uma compra com frete |
+| 13 | Classificação de número positivo, negativo ou zero |
+| 14 | Verificação de número par ou ímpar |
+| 15 | Comparação entre dois valores |
+
+### Executáveis
+
+A pasta [Executáveis_python](Execut%C3%A1veis_python/) contém os exercícios **16 a 35** em formato `.exe`.
+
+Os nomes dos arquivos identificam temas como positivo/negativo/zero, paridade, comparação e ordenação de números, aprovação do aluno, categoria de votação e ano bissexto. Os executáveis de 25 a 35 estão identificados apenas por número; consulte os enunciados da disciplina para seus objetivos.
+
+Os códigos-fonte correspondentes a esses 20 executáveis ainda não estão nesta pasta. A numeração dos executáveis e a dos códigos-fonte deve ser consultada separadamente: há temas semelhantes em números diferentes.
+
+## Como executar
+
+### 1. Obter o repositório
+
+Com Git instalado:
+
+```bash
+git clone https://github.com/DaniloCH310/AulaPythonOdair.git
+cd AulaPythonOdair
+```
+
+Também é possível usar **Code → Download ZIP** no GitHub e extrair a pasta antes de executar os arquivos.
+
+### 2. Executar os arquivos Python
+
+Tenha **Python 3** instalado e disponível no terminal. Os códigos-fonte atuais usam recursos da própria linguagem e não exigem bibliotecas externas.
+
+Na pasta principal do repositório:
+
+```bash
+python --version
+python AtividadePrint.py
+python "AulaEquação.py"
+python "15 exercícios python/Exercício 1.py"
+```
+
+Se o seu sistema disponibilizar o interpretador como `python3`, substitua `python` por `python3`. No Windows, também é possível usar `py` quando o Python Launcher estiver instalado.
+
+Mantenha as aspas nos caminhos com espaços. Os programas interativos solicitarão os valores pelo terminal; informe números no formato esperado por cada exercício.
+
+**Exemplo do exercício 1:**
+
+```text
+Digite o primeiro número: 8
+Digite o segundo número: 4
+A soma dos números é: 12
+```
+
+### 3. Executar os arquivos Windows
+
+Abra a pasta `Executáveis_python` e escolha o exercício desejado. Para acompanhar a saída pelo PowerShell, execute a partir da raiz do repositório:
+
+```powershell
+& ".\Executáveis_python\Exercicio_16 - Positivo, negativo ou zero.exe"
+```
+
+Os arquivos `.exe` são destinados ao Windows. Dependências e compatibilidade podem variar conforme a forma como cada arquivo foi gerado; os códigos `.py` são a opção disponível para estudar e modificar as soluções publicadas em código-fonte.
+
+## Roteiro de estudo
+
+1. Consulte o enunciado da atividade no Classroom.
+2. Identifique as entradas, o processamento e a saída esperada.
+3. Analise o fluxograma e a tabela correspondentes, quando disponíveis.
+4. Leia e execute o código com diferentes valores de entrada.
+5. Compare os resultados, incluindo casos como zero e valores iguais quando fizerem sentido.
+
+## Evolução
+
+O repositório acompanha o andamento das aulas. Os materiais de funções e módulos presentes no Preparatório para AP-02 indicam a próxima etapa de estudo; a lista completa dessa etapa ainda não está publicada aqui.
+
+---
+
+**Autor:** [Danilo Chaves de Sá](https://github.com/DaniloCH310)  
+**Finalidade:** estudo e acompanhamento das atividades acadêmicas de programação e algoritmos.
