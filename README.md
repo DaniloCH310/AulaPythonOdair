@@ -4,12 +4,6 @@ Repositório de estudos de **Danilo Chaves de Sá**, desenvolvido durante a disc
 
 Reúne exercícios de lógica de programação em Python, representações em fluxogramas, tabelas de apoio e versões executáveis para Windows. O objetivo é registrar a evolução nas aulas e praticar a transformação de problemas em algoritmos.
 
-## Contexto da disciplina
-
-A organização toma como referência a [turma no Google Classroom](https://classroom.google.com/c/ODcxMjM4ODEyNzUw), cujo acesso exige uma conta autorizada. Entre os tópicos consultados estão conceitos iniciais, arquivos de aula, vídeos, a lista de exercícios de **Entregáveis 01** e o **Preparatório para AP-02**, com materiais sobre funções e módulos em Python.
-
-O conteúdo deste repositório representa as atividades aqui publicadas; não corresponde necessariamente a todo o material da disciplina. As orientações e os enunciados oficiais devem ser consultados no Classroom.
-
 ## Conteúdos praticados
 
 - Entrada e saída de dados com `input()` e `print()`.
