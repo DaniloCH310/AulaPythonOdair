@@ -58,36 +58,6 @@ Os nomes dos arquivos identificam temas como positivo/negativo/zero, paridade, c
 
 Os códigos-fonte correspondentes a esses 20 executáveis ainda não estão nesta pasta. A numeração dos executáveis e a dos códigos-fonte deve ser consultada separadamente: há temas semelhantes em números diferentes.
 
-## Como executar
-
-### 1. Obter o repositório
-
-Com Git instalado:
-
-```bash
-git clone https://github.com/DaniloCH310/AulaPythonOdair.git
-cd AulaPythonOdair
-```
-
-Também é possível usar **Code → Download ZIP** no GitHub e extrair a pasta antes de executar os arquivos.
-
-### 2. Executar os arquivos Python
-
-Tenha **Python 3** instalado e disponível no terminal. Os códigos-fonte atuais usam recursos da própria linguagem e não exigem bibliotecas externas.
-
-Na pasta principal do repositório:
-
-```bash
-python --version
-python AtividadePrint.py
-python "AulaEquação.py"
-python "15 exercícios python/Exercício 1.py"
-```
-
-Se o seu sistema disponibilizar o interpretador como `python3`, substitua `python` por `python3`. No Windows, também é possível usar `py` quando o Python Launcher estiver instalado.
-
-Mantenha as aspas nos caminhos com espaços. Os programas interativos solicitarão os valores pelo terminal; informe números no formato esperado por cada exercício.
-
 **Exemplo do exercício 1:**
 
 ```text
@@ -100,19 +70,7 @@ A soma dos números é: 12
 
 Abra a pasta `Executáveis_python` e escolha o exercício desejado. Para acompanhar a saída pelo PowerShell, execute a partir da raiz do repositório:
 
-```powershell
-& ".\Executáveis_python\Exercicio_16 - Positivo, negativo ou zero.exe"
-```
-
 Os arquivos `.exe` são destinados ao Windows. Dependências e compatibilidade podem variar conforme a forma como cada arquivo foi gerado; os códigos `.py` são a opção disponível para estudar e modificar as soluções publicadas em código-fonte.
-
-## Roteiro de estudo
-
-1. Consulte o enunciado da atividade no Classroom.
-2. Identifique as entradas, o processamento e a saída esperada.
-3. Analise o fluxograma e a tabela correspondentes, quando disponíveis.
-4. Leia e execute o código com diferentes valores de entrada.
-5. Compare os resultados, incluindo casos como zero e valores iguais quando fizerem sentido.
 
 ## Evolução
 
